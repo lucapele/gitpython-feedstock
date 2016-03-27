@@ -73,6 +73,11 @@ Linux: [![Circle CI](https://circleci.com/gh/conda-forge/gitpython-feedstock.svg
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/gitpython-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/gitpython-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/gitpython-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/gitpython-feedstock/branch/master)
 
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/gitpython/badges/version.svg)](https://anaconda.org/conda-forge/gitpython)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/gitpython/badges/downloads.svg)](https://anaconda.org/conda-forge/gitpython)
+
 
 Updating gitpython-feedstock
 ============================

@@ -5,12 +5,12 @@ package:
   version: {{ version }}
 
 source:
-  fn: GitPython-{{ version }}.tar.gz 
+  fn: GitPython-{{ version }}.tar.gz
   url: https://github.com/gitpython-developers/GitPython/archive/{{ version }}.tar.gz
   sha256: adbc08a2244f5f00cd8d0dc7a115b55f269ca1677799393a86d499b6a4dd513e
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
@@ -33,7 +33,9 @@ test:
 
 about:
   home: http://gitorious.org/projects/git-python/
-  license: BSD License
+  license: BSD 3-Clause
+  license_family: BSD
+  license_file: LICENSE
   summary: 'Python Git Library'
 
 extra:

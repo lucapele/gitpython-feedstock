@@ -32,11 +32,12 @@ test:
     - git.repo
 
 about:
-  home: http://gitorious.org/projects/git-python/
+  home: https://github.com/gitpython-developers/GitPython
   license: BSD 3-Clause
   license_family: BSD
   license_file: LICENSE
   summary: 'Python Git Library'
+  doc_url:  http://gitpython.readthedocs.org
 
 extra:
   recipe-maintainers:

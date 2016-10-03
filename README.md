@@ -1,7 +1,7 @@
 About gitpython
 ===============
 
-Home: http://gitorious.org/projects/git-python/
+Home: https://github.com/gitpython-developers/GitPython
 
 Package license: BSD 3-Clause
 

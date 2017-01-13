@@ -1,4 +1,4 @@
-{% set version="2.0.8" %}
+{% set version="2.1.1" %}
 
 package:
   name: gitpython
@@ -7,10 +7,10 @@ package:
 source:
   fn: GitPython-{{ version }}.tar.gz
   url: https://github.com/gitpython-developers/GitPython/archive/{{ version }}.tar.gz
-  sha256: adbc08a2244f5f00cd8d0dc7a115b55f269ca1677799393a86d499b6a4dd513e
+  sha256: 758152a324e2312993582751c72894d01af4cac83ea0ca987aeba81dd3786113
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
@@ -43,3 +43,4 @@ extra:
   recipe-maintainers:
     - jakirkham
     - pelson
+    - ocefpaf

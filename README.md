@@ -14,9 +14,7 @@ Summary: Python Git Library
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/gitpython-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/gitpython-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/gitpython-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/gitpython-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/gitpython-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/gitpython-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/gitpython-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/gitpython-feedstock)
 
 Current release info
 ====================

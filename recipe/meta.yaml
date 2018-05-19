@@ -1,4 +1,4 @@
-{% set version="2.1.8" %}
+{% set version = "2.1.8" %}
 {% set sha256 = "ad61bc25deadb535b047684d06f3654c001d9415e1971e51c9c20f5b510076e9" %}
 
 package:
@@ -11,14 +11,13 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
-    - python
-    - setuptools
+    - pip
 
   run:
     - python

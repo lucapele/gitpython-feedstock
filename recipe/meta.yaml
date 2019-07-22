@@ -22,6 +22,8 @@ requirements:
     - gitdb2
 
 test:
+  requires:
+    - git
   imports:
     - git
     - git.index

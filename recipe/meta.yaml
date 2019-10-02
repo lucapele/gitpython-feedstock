@@ -1,4 +1,4 @@
-{% set version = "3.0.2" %}
+{% set version = "3.0.3" %}
 
 package:
   name: gitpython
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/G/GitPython/GitPython-{{ version }}.tar.gz
-  sha256: d2f4945f8260f6981d724f5957bc076398ada55cb5d25aaee10108bcdc894100
+  sha256: 631263cc670aa56ce3d3c414cf0fe2e840f2e913514b138ea28d88a477bbcd21
 
 build:
   number: 0
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
